@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Blog Post</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  </head>
-  <body>
-    <section id="header"></section>
-    <section id="main"></section>
-  </body>
+
+<head>
+  <title>Blog Post</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="/CSS/blogstylesheet.css">
+</head>
+
+<body>
+  <div class="blogContainer">
+
+    <!-- *******************************HEADER****************************** -->
+    <!--header that includes:-->
+    <div class="header">
+      <!--blog header that acts as a link to the homepage-->
+      <a class="header" href="/index.html">
+        <h1 class="header">Big Blog Post</h1>
+      </a>
+      <!--a subtitle that does not act as a link-->
+      <h6 class="header">About a New Line of Dice</h6>
+      <!--a banner line-->
+      <img src="images/bannerline.png" title="" alt="" style="width: 100%;">
+    </div>
+    <!--header end-->
+
+    <!-- *******************************MAIN****************************** -->
+    <div class="main">
+      <!--this div includes a title link, an image, and a post-->
+      <div class="mainTitle">
+        <!--this div includes a blog title that acts as a link to the homepage-->
+        <a class="mainlink" href="/index.html">
+          <h3>Introducing Peacock Aurora!</h3>
+        </a>
+      </div>
+
+      <!--blog post image-->
+      <img id="mainImage" src="images/peacock2.png" title="" alt="">
+
+      <!--this div inclues text-->
+      <div class="blogPost">
+        <p>
+        <h4>Check out this small bold bit of text!</h4>
+        I'm baby normcore mustache vaporware, echo park air plant DIY biodiesel drinking vinegar poutine knausgaard
+        put a bird on it chia craft beer. Ennui viral selfies umami coloring book. Fixie polaroid kombucha, kitsch
+        selfies food truck PBR&B. Occupy next level scenester four dollar toast, cloud bread 3 wolf moon viral.<br />
+        <br />
+        Kale chips 3 wolf moon bushwick, umami vinyl post-ironic tumeric 8-bit keffiyeh kitsch XOXO trust fund. Marfa
+        artisan swag green juice fingerstache stumptown taiyaki post-ironic authentic mustache DIY. Twee pitchfork
+        shaman, air plant ramps stumptown forage distillery brunch food truck. Cliche hell of glossier sartorial, VHS
+        copper mug heirloom raclette yr poutine pour-over pok pok affogato blog tumblr. Pinterest iceland quinoa
+        salvia neutra sustainable.
+        <br />
+        <h4>Check out this small bold bit of text!</h4>
+        Godard venmo next level, trust fund irony sartorial pop-up. Readymade plaid hashtag lyft, post-ironic kitsch
+        jean shorts flexitarian drinking vinegar lo-fi flannel williamsburg meditation. Man braid vaporware tbh
+        lumbersexual offal meggings. Copper mug ennui deep v woke mlkshk, hammock kombucha activated charcoal. Artisan
+        seitan gentrify schlitz synth.<br />
+
+        Banh mi shoreditch 90's prism taiyaki, you probably haven't heard of them aesthetic sriracha glossier
+        kickstarter. Microdosing pop-up green juice, sustainable chia blog DIY leggings austin gentrify twee pabst
+        irony. Narwhal shaman chartreuse shoreditch, sustainable taxidermy lo-fi forage swag flexitarian palo santo.
+        Vegan wayfarers listicle cardigan bicycle rights glossier humblebrag portland skateboard tumeric VHS. Raclette
+        asymmetrical godard ramps, hashtag disrupt semiotics gastropub fingerstache woke gochujang. La croix ennui
+        coloring book umami drinking vinegar.
+
+        <br />
+        Sustainable williamsburg intelligentsia yuccie, letterpress sriracha retro food truck copper mug quinoa enamel
+        pin street art edison bulb iceland. Forage schlitz tbh, bushwick master cleanse pour-over synth. Air plant
+        palo santo twee, roof party copper mug drinking vinegar tumblr +1. Four loko lyft authentic bushwick, 90's
+        pinterest hashtag.<br />
+        <br />
+        Dummy text? More like dummy thicc text, amirite?
+        </p>
+      </div>
+
+    </div>
+    <!--main end-->
+
+    <!-- **********************************FOOTER*************************** -->
+    <div class="footer">
+      <!--footer title-->
+      <div class="footer1">
+        <form action="">
+          <p>Questions or comments? <strong> Get in touch!</strong></p>
+      </div>
+
+      <!-- these divs hold the footer contact form-->
+      <div class="footer2">
+        <input type="text" id="name" name="name" placeholder="Enter your name ">
+
+        <input type="text" id="email" name="email" placeholder="Enter your email ">
+
+        <textarea id="message" name="message" rows="6"
+          cols="45">Enter message text here. We're looking forward to hearing from you! </textarea>
+
+        <button id="submitButton">Submit</button>
+      </div>
+      </form>
+
+      <!-- these divs hold the boxes responsible for the icons and links to social media and contact -->
+      <div class="footer3">
+        <p>Where to find me</p>
+        <div class="footerButtons">
+          <!--phone-->
+          <div class="social">
+            <img src="images/footerlink-phone.png" title="" alt="" class="socialImage">
+            <p class="socialTag">802-555-1234</p>
+          </div>
+          <!--email-->
+          <div class="social">
+            <img src="images/footerlink-email.png" title="" alt="" class="socialImage">
+            <p class="socialTag">HarkensDice@gmail.com</p>
+          </div>
+          <!--website-->
+          <div class="social">
+            <img src="images/footerlink-home.png" title="" alt="" class="socialImage">
+            <p class="socialTag">HarkensDice.com</p>
+          </div>
+          <!--instagram-->
+          <div class="social">
+            <img src="images/footerlink-instagram.png" title="" alt="" class="socialImage">
+            <p class="socialTag">@HarkensDice</p>
+          </div>
+          <!--facebook-->
+          <div class="social">
+            <img src="images/footerlink-facebook.png" title="" alt="" class="socialImage">
+            <p class="socialTag">facebook.com/HarkensDice</p>
+          </div>
+          <!--twitter-->
+          <div class="social">
+            <img src="images/footerlink-twitter.png" title="" alt="" class="socialImage">
+            <p class="socialTag">@HarkensDice</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer div end-->
+  </div>
+</body>
+
 </html>
