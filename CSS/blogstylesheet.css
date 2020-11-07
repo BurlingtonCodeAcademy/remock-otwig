@@ -17,7 +17,7 @@ img {
   border-radius: 15px;
 }
 
-.blogcontainer {
+.blogContainer {
   display: flex;
   flex-direction: column;
 }
@@ -75,7 +75,7 @@ a:active {
   align-items: center;
 }
 
-.maintitle {
+.mainTitle {
   font-size: 18pt;
   text-align: center;
 }
@@ -118,7 +118,7 @@ a:active {
   grid-area: buttons;
 }
 
-.footerbuttons {
+.footerButtons {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -164,12 +164,12 @@ a:active {
   display: flex;
 }
 
-.socialimage {
+.socialImage {
   width: 15px;
   height: 15px;
 }
 
-.socialtag {
+.socialTag {
   font-size: 8pt;
 }
 

@@ -17,10 +17,10 @@ img {
   border-radius: 15px;
 }
 
-.continuecontainer {
+.continueContainer {
   display: grid;
   grid-template-columns: 200px 1fr 300px 200px;
-  grid-template-rows: 0.25fr 750px 500px 0.5fr;
+  grid-template-rows: 0.25fr 1fr 1fr 0.5fr;
   grid-gap: 10px;
   grid-template-areas:
     ". item1 item1 ."
@@ -37,7 +37,7 @@ img {
   text-align: center;
 }
 
-h1.headertext {
+h1.headerText {
   margin: 10px;
   padding-left: 13px;
   padding-right: 13px;
@@ -49,7 +49,7 @@ h1.headertext {
   border-radius: 5px;
 }
 
-.headercaption {
+.headerCaption {
   margin: 0;
   font-family: "M PLUS Rounded 1c";
   font-weight: 300;
@@ -95,7 +95,6 @@ a:active {
 /* css for elements in main part of page */
 .main1 {
   grid-area: item2;
-  margin-right: 20px;
   font-size: 10pt;
   font-weight: 300;
   text-align: justify;
@@ -113,18 +112,17 @@ a:active {
   align-items: flex-start;
 }
 
-.datemaintitle {
+.dateMainTitle {
   border-radius: 5px;
   background-color: black;
   color: white;
   font-weight: 700;
-  /* padding: 2px; */
   margin-bottom: 0;
   width: 100px;
   text-align: center;
 }
 
-.datemaintext {
+.dateMainText {
   font-size: 12px;
   font-weight: 300;
   align-items: center;
@@ -162,10 +160,14 @@ a:active {
 .main3link {
   margin-top: 3px;
 }
+.main1, p {
+  margin-left: 0px;
+}
 
 /* *********** FOOTER ************ */
 /* css for elements in main part of page */
 .footer {
+  grid-area: footer;
   background-color: rgb(207, 212, 216);
   overflow: hidden;
   display: grid;
@@ -191,7 +193,7 @@ a:active {
   grid-area: buttons;
 }
 
-.footerbuttons {
+.footerButtons {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -237,17 +239,17 @@ a:active {
   display: flex;
 }
 
-.socialimage {
+.socialImage {
   width: 15px;
   height: 15px;
 }
 
-.socialtag {
+.socialTag {
   font-size: 8pt;
 }
 
-p,
-#footer3 {
+
+#footer3 > p {
   margin-top: 0px;
   margin-left: 10px;
 }

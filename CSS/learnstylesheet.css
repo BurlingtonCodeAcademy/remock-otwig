@@ -16,7 +16,7 @@ img {
   border-radius: 15px;
 }
 
-.learncontainer {
+.learnContainer {
   display: grid;
   grid-template-columns: 200px 300px 1fr 200px;
   grid-template-rows: 0.25fr 1fr 1fr 0.5fr;
@@ -36,7 +36,7 @@ img {
   text-align: center;
 }
 
-h1.headertext {
+h1.headerText {
   margin: 10px;
   font-family: "M PLUS Rounded 1c";
   font-weight: 500;
@@ -48,7 +48,7 @@ h1.headertext {
   padding-right: 13px;
 }
 
-h6.headertext {
+h6.headerText {
   margin: 0;
   font-family: "M PLUS Rounded 1c";
   font-weight: 300;
@@ -85,7 +85,7 @@ a:active {
   color: yellow;
 }
 
-a.mainlink {
+a.mainLink {
   background-color: white;
 }
 
@@ -118,7 +118,7 @@ a.mainlink {
   align-items: flex-start;
 }
 
-.datemaintitle {
+.dateMainTitle {
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -129,7 +129,7 @@ a.mainlink {
   text-align: center;
 }
 
-.datemaintext {
+.dateMainText {
   font-size: 12px;
   font-weight: 300;
   align-items: center;
@@ -197,7 +197,7 @@ a.mainlink {
   grid-area: buttons;
 }
 
-.footerbuttons {
+.footerButtons {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -243,12 +243,12 @@ a.mainlink {
   display: flex;
 }
 
-.socialimage {
+.socialImage {
   width: 15px;
   height: 15px;
 }
 
-.socialtag {
+.socialTag {
   font-size: 8pt;
 }
 

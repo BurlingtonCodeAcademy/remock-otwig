@@ -43,7 +43,7 @@ a:active {
   color: yellow;
 }
 
-a.mainlink {
+a.mainLink {
   text-decoration: none;
   background-color: white;
 }
@@ -77,12 +77,12 @@ header {
   justify-content: center;
 }
 
-.featureheading {
+.featureHeading {
   width: auto;
   text-align: center;
 }
 
-.featureimages {
+.featureImages {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 0.3fr;
@@ -93,7 +93,7 @@ header {
   justify-content: space-between;
 }
 
-.featureimg {
+.featureImg {
   padding: 0px;
   margin: 0px;
   display: flex;
@@ -118,7 +118,7 @@ header {
   font-weight: 300;
 }
 
-div.featurebutton {
+div.featureButton {
   justify-self: center;
   text-align: center;
   height: 75px;
@@ -156,7 +156,7 @@ img,
 
 /* *********** MAIN ************ */
 /* css for elements in main part of page */
-#mainid {
+#mainId {
   display: flex;
   justify-content: center;
 }
@@ -221,7 +221,7 @@ img,
   align-items: flex-start;
 }
 
-.datemaintitle {
+.dateMainTitle {
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -233,7 +233,7 @@ img,
   text-align: center;
 }
 
-.datemaintext {
+.dateMainText {
   font-size: 12px;
   font-weight: 400;
   align-items: center;
@@ -292,7 +292,7 @@ img,
   grid-area: buttons;
 }
 
-.footerbuttons {
+.footerbBttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -338,12 +338,12 @@ img,
   display: flex;
 }
 
-.socialimage {
+.socialImage {
   width: 15px;
   height: 15px;
 }
 
-.socialtag {
+.socialTag {
   font-size: 8pt;
 }
 
