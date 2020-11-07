@@ -5,7 +5,7 @@
   <title>Continue Reading</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link href="continuestylesheet.css" rel="stylesheet">
+  <link href="CSS/continuestylesheet.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,21 +14,26 @@
     <!--this section includes two lines of text and an image-->
     <div class="header">
       <div>
-        <!--this div includes two lines of text-->
+        <!--this div includes two lines of text, one of which acts as a link to the homepage-->
         <a class="headerlink" href="/index.html">
-          <h1 class="headertext"> Continue Reading </h1></a>
+          <h1 class="headertext"> Continue Reading </h1>
+        </a>
         <h6 class="headercaption">More information</h6>
       </div>
 
       <div class="headerimage">
-        <!--this div includes an image-->
+        <!--this div includes an image of a dotted divider line-->
         <img src="images/bannerline.png" title="" alt="" style="width: 100%;">
       </div>
     </div>
 
     <!-- *********************** MAIN1 ********************** -->
+    <!-- this div holds all of main component 1 -->
     <div class="main1">
-      <a class="main1link" href="/index.html"><h3>New Beginnings</h3></a>
+      <!-- within is a heading that is a link to the homepage as well as an image and a body of text -->
+      <a class="main1link" href="/index.html">
+        <h3>New Beginnings</h3>
+      </a>
       <img src="images/newbeginning.png" title="" alt="" style="max-width:100%; height: auto;">
       <p>
         I'm baby normcore mustache vaporware, echo park air plant DIY biodiesel drinking vinegar poutine knausgaard
@@ -72,8 +77,9 @@
     </div>
 
     <!--~~~~~~~~~~~~~~~~~~~ MAIN 2~~~~~~~~~~~~~~~~~~ -->
+    <!-- this div holds all of main component 2 -->
     <div class="main2">
-      <!--this div includes three boxes with a date and text each-->
+      <!--this div includes three boxes of text with a date and text each-->
       <div class="main2box1">
         <!--this div includes a date and text-->
         <p class="datemaintitle">05.17.92</p>
@@ -110,6 +116,7 @@
       </div>
     </div>
     <!--~~~~~~~~~~~~~~~~~~~ MAIN 3~~~~~~~~~~~~~~~~~~~ -->
+    <!-- this div holds all of main component 3 -->
     <div class="main3">
       <!--this div includes two boxes with a heading, an image and text-->
       <div class=main3box1>
@@ -126,7 +133,7 @@
         </div>
 
         <div class="main3button">
-          <!--this div holds the button-->
+          <!--this div holds a button to a blog post page-->
           <p class="main3link"><a class="main3link" href="\blog-post.html">Learn More</a></p>
         </div>
       </div>
@@ -146,59 +153,72 @@
         </div>
 
         <div class="main3button">
-          <!--this div holds the button-->
+          <!--this div holds a button to a blog post-->
           <p class="main3link"><a class="main3link" href="\blog-post.html">Learn More</a></p>
         </div>
       </div>
-      </div>
-      <!--ends div main4box2-->
     </div>
-    <!--ends div main 3-->
-
-
 
     <!-- **********************************FOOTER*************************** -->
     <div class="footer">
 
       <div class="footer1">
-        <p>WORDS WORDS WORDS WORDS WORDS</p>
+        <form action="">
+          <p>Questions or comments? <strong> Get in touch!</strong></p>
       </div>
 
+      <!-- these divs hold the footer contact form -->
       <div class="footer2">
-        <div class="footer2input1">
-          <p>email</p>
-        </div>
-        <div class="footer2input2">
-          <p>email</p>>
-        </div>
-        <div class="footer2input3">
-          <p>text text text</p>
-        </div>
-        <div class="footerbutton">
-          <p>I'm a button</p>>
-        </div>
-      </div>
+        <input type="text" id="name" name="name" placeholder="Enter your name ">
 
+        <input type="text" id="email" name="email" placeholder="Enter your email ">
+
+        <textarea id="message" name="message" rows="6"
+          cols="45">Enter message text here. We're looking forward to hearing from you! </textarea>
+
+        <button id="submitButton">Submit</button>
+      </div>
+      </form>
+
+      <!-- these divs hold the boxes responsible for the icons and links to social media and contact -->
       <div class="footer3">
-        <div class="footertext">
-          <p>TEXT! easy text</p>
-          <!-- </div>
-        <div class="footer4"> -->
-          <div class="footerbuttons">
-            <div class="social1">social1</div>
-            <div class="social2">social2</div>
-            <div class="social3">social3</div>
-            <div class="social4">social4</div>
-            <div class="social5">social5</div>
-            <div class="social6">social6</div>
+        <p>Where to find me</p>
+        <div class="footerbuttons">
+          <!--phone-->
+          <div class="social">
+            <img src="images/footerlink-phone.png" title="" alt="" class="socialimage">
+            <p class="socialtag">802-555-1234</p>
           </div>
-          <!-- </div> -->
+          <!--email-->
+          <div class="social">
+            <img src="images/footerlink-email.png" title="" alt="" class="socialimage">
+            <p class="socialtag">HarkensDice@gmail.com</p>
+          </div>
+          <!--website-->
+          <div class="social">
+            <img src="images/footerlink-home.png" title="" alt="" class="socialimage">
+            <p class="socialtag">HarkensDice.com</p>
+          </div>
+          <!--instagram-->
+          <div class="social">
+            <img src="images/footerlink-instagram.png" title="" alt="" class="socialimage">
+            <p class="socialtag">@HarkensDice</p>
+          </div>
+          <!--facebook-->
+          <div class="social">
+            <img src="images/footerlink-facebook.png" title="" alt="" class="socialimage">
+            <p class="socialtag">facebook.com/HarkensDice</p>
+          </div>
+          <!--twitter-->
+          <div class="social">
+            <img src="images/footerlink-twitter.png" title="" alt="" class="socialimage">
+            <p class="socialtag">@HarkensDice</p>
+          </div>
         </div>
       </div>
     </div>
-    <!--footer end-->
-
   </div>
+
 </body>
 
 </html>
